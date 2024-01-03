@@ -16,6 +16,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <h1 className="text-3xl font-bold underline">
+            and TailWind!
+          </h1>
         </a>
       </header>
     </div>
