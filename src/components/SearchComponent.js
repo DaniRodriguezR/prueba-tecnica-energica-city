@@ -1,7 +1,13 @@
 import React from "react";
 
-const SearchComponent = () => {
-  return <div>SearchComponent</div>;
-};
+function SearchComponent() {
+  return (
+    <input
+      type="text"
+      className="md:w-auto lg:w-96"
+      placeholder="Ingrese el nombre a buscar..."
+    />
+  );
+}
 
 export default SearchComponent;
